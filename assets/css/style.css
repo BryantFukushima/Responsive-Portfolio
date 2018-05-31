@@ -135,8 +135,8 @@ MAIN CONTENT ~ INDEX.HTML
 
 .content {
 	clear: both;
-	width: 60%;
-	margin: 40px;
+	width: 50%;
+	margin: 40px auto;
 	border: 1px solid #dddddd;
 	padding: 25px;
 	overflow: auto;
@@ -292,12 +292,14 @@ MEDIA QUERIES
 @media screen and (max-width: 980px) {
 	.content {
 		width: 65%;
+		margin: 40px;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.content {
 		width: initial;
+		margin: 40px;
 	}
 }
 
@@ -330,6 +332,7 @@ MEDIA QUERIES
 
 	.content {
 		width: initial;
+		margin: 40px;
 	}
 
 	.portLink {
